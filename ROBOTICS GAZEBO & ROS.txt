@@ -39,13 +39,13 @@ Nodes, Topics, Messages, Publish, Subscribem Servuces, Request, Response
 roscore, rosrun, rosnode, rostopic, rosmsg, rosed, roslaunch, rosdep, rossrv, rosservice, rosparam
 
 
-                 /camera_image
+       /camera_image
 CAMERA ————————> POSITION ESTIMATOR
-	              image	
+	   image	
 
-				      /wheel_encoders
+				   /wheel_encoders
 POSITION ESTIMATOR ————————> WHEEL ENCODER
-					     rotation
+				   rotation
 
 source /opt/ros/kinetic/setup.bash	
 workspace - package - node
