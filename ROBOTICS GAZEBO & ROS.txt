@@ -1,0 +1,96 @@
+ROBOTICS GAZEBO & ROS
+
+########################
+# GAZEBO ARCHITECTURE
+########################
+
+> build
+
+> model
+—— building
+———— model.config
+———— model.sdf
+—— robot
+———— model.config
+———— model.sdf
+
+> world
+—— world.world
+
+> launch
+—— launch.launch
+
+> script
+—— script.cpp
+
+> CMakeLists.txt
+> package.xml
+
+gzserver world.world —verbose
+gzclient world.world —verbose
+killall gzcserver
+killall gzclient
+
+########
+# ROS
+########
+
+Nodes, Topics, Messages, Publish, Subscribem Servuces, Request, Response
+roscore, rosrun, rosnode, rostopic, rosmsg, rosed, roslaunch, rosdep, rossrv, rosservice, rosparam
+
+
+                 /camera_image
+CAMERA ————————> POSITION ESTIMATOR
+	              image	
+
+				      /wheel_encoders
+POSITION ESTIMATOR ————————> WHEEL ENCODER
+					     rotation
+
+source /opt/ros/kinetic/setup.bash	
+workspace - package - node
+
+compile: catkin_make
+source: source devel/setup.bash
+
+roscore
+rosrun turtlesim turtlesim_node
+rosrun turtlesim turtle_teleop_key
+rosnode list
+rostopic list
+rostopic info /turtle1/cmd_vel
+rostopic echo /turtle1/cmd_vel
+rosmsg info geometry_msgs/Twist
+rosed geometry_msgs Twist.msg
+
+CREATE CATKIN WORKSPACE
+
+mkdir -p /home/workspace/catkin_ws/src
+cd /home/workspace/catkin_ws/src
+catkin_init_workspace
+cd /home/workspace/catkin_ws
+catkin_make
+source devel/setup.bash
+
+system dependencies: build dependencies and run dependencies
+
+catkin_create_pkg first_package
+
+simple_mover -> node that publishes joint angle commands to simple_arm
+arm_mover -> node that provides a service called safe_move which allows the arm to be moved safely
+look_away -> node that subscribes to the arm joint positions and a topic where camera data is being published
+
+CREATE & RUN NODE
+
+1. Create C++ node
+2. Update CMakelist
+3. catkin_make
+4. source devel/setup.bash
+5. Launch!
+6. source devel/setup.bash
+7. Run Node!
+
+rqt_image_view /rgb_camera/image_raw
+
+rosservice call /arm_mover/safe_move "joint_1: 0
+joint_2: 0"
