@@ -92,5 +92,8 @@ CREATE & RUN NODE
 
 rqt_image_view /rgb_camera/image_raw
 
+rosnode list
+rosservice list
 rosservice call /arm_mover/safe_move "joint_1: 0
 joint_2: 0"
+rosparam set /arm_mover/max_joint_2_angle 1.57
