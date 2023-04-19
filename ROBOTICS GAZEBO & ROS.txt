@@ -35,7 +35,7 @@ killall gzclient
 # ROS
 ########
 
-Nodes, Topics, Messages, Publish, Subscribem Servuces, Request, Response
+Nodes, Topics, Messages, Publish, Subscribes, Services, Request, Response
 roscore, rosrun, rosnode, rostopic, rosmsg, rosed, roslaunch, rosdep, rossrv, rosservice, rosparam
 
 
