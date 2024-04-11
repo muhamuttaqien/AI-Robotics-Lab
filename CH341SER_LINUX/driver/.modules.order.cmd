@@ -1,0 +1,1 @@
+cmd_/home/muttaqien-m/Desktop/arduino-1.8.19/workplace/CH341SER_LINUX/driver/modules.order := {   echo /home/muttaqien-m/Desktop/arduino-1.8.19/workplace/CH341SER_LINUX/driver/ch341.ko; :; } | awk '!x[$$0]++' - > /home/muttaqien-m/Desktop/arduino-1.8.19/workplace/CH341SER_LINUX/driver/modules.order
