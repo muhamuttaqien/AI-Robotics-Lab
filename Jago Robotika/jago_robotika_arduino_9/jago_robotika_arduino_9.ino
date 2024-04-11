@@ -7,6 +7,11 @@ Servo myServo;
 int SERVO = 6;
 int angle;
 
+int JoyXPin = A1;
+int JoyYPin = A2;
+int JoySWPin = 11;
+
+
 int get_distance()
 {
   digitalWrite(TRIG, HIGH);
@@ -17,7 +22,7 @@ int get_distance()
   duration = pulseIn(ECHO, HIGH);
 
   int distance;
-  distance = (duration/2) * 340*100 / 10e6;
+  distance = duration/2*0.0340; // V: 340m/s
 
   return distance;
 }
@@ -26,38 +31,62 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(TRIG, OUTPUT);
   pinMode(ECHO, INPUT);
-  myServo.attach(SERVO);
-  Serial.begin(9600);
+  pinMode(JoySWPin, INPUT_PULLUP);
+  
   digitalWrite(TRIG, LOW);
+  
+  myServo.attach(SERVO);
   myServo.write(90);
+  Serial.begin(9600);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  if (get_distance() < 15 && get_distance() > 10)
+
+  int JoyX;
+  int JoyY;
+  int JoySW;
+  
+  if (get_distance() < 20 && get_distance() > 15)
   {
     Serial.println("STOP!");
   }
-  else if (get_distance() >= 15)
+  else if (get_distance() >= 20)
   {
-    angle = angle + 1; 
+    JoyX = analogRead(JoyXPin);
+    angle = map(JoyX, 0, 1024, 45, 135);
   }
   else
   {
-    angle = angle - 1;
+    angle = angle - 4;
   }
 
-  if (angle > 180)
+  if (angle > 135)
   {
-    angle = 180;
+    angle = 135;
   }
-  if (angle <= 0)
+  if (angle <= 45)
   {
-    angle = 0;
+    angle = 45;
   }
   
   myServo.write(angle);
   Serial.println(get_distance());
   delay(100);
-  
+
+  // JoyX = analogRead(JoyXPin);
+  // JoyY = analogRead(JoyYPin);
+  // JoySW = digitalRead(JoySWPin);
+
+  // Serial.print("X: ");
+  // Serial.println(JoyX);
+
+  // Serial.print("Y: ");
+  // Serial.println(JoyY);
+
+  // Serial.print("SW: ");
+  // Serial.println(JoySW);
+
+  // delay(500);
+ 
 }
