@@ -37,7 +37,7 @@ void loop() {
 void LedBar_MSBFIRST(int value)
 {
   digitalWrite(latchPin, LOW);
-  shiftOut(dataPin, clockPin, MSBFIRST, value>>8);//Send high 8 bits of data, high bits first
-  shiftOut(dataPin, clockPin, MSBFIRST, value);//Send low 8 bits of data, high bits first
+  shiftOut(dataPin, clockPin, MSBFIRST, value>>8);// Send high 8 bits of data, high bits first
+  shiftOut(dataPin, clockPin, MSBFIRST, value);// Send low 8 bits of data, high bits first
   digitalWrite(latchPin, HIGH);
 }

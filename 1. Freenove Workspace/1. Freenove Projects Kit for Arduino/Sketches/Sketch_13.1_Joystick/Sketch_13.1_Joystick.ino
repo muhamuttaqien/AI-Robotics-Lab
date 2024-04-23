@@ -8,7 +8,7 @@
 int xVal, yVal, zVal;       // define 3 variables to store the values of 3 direction
 
 void setup() {
-  pinMode(A3, INPUT);       // initialize the port to input
+  pinMode(A3, INPUT);       // initialize the port to input (you can also use INPUT_PULLUP)
   Serial.begin(9600);       // initialize the serial port with baud rate 9600
 }
 

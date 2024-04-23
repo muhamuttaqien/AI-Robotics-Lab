@@ -5,7 +5,7 @@
   by http://www.freenove.com
 */
 
-// Conncet the port of the stepper motor driver
+// Connect the port of the stepper motor driver
 int outPorts[] = {12, 11, 10, 9};
 
 void setup() {

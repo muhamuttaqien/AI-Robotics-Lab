@@ -21,9 +21,9 @@ void setup() {
   lcd.init();                // initialize the lcd
   lcd.backlight();           // Turn on backlight
   startingAnimation();       // display a dynamic start screen
-  FlexiTimer2::set(1000, timerInt);  // configure the timer and interrupt function
+  FlexiTimer2::set(1000, timerInt);  // configure the timer and interrupt function (1 sec)
   FlexiTimer2::start();              // start timer
-  Serial.begin(115200);                // initialize serial port with baud rate 9600
+  Serial.begin(9600);                // initialize serial port with baud rate 9600
   Serial.println("Input hour,minute,second to set time.");
 }
 

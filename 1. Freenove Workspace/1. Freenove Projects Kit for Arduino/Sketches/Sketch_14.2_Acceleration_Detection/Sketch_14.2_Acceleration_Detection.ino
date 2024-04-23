@@ -30,9 +30,9 @@ void setup() {
     while (1);
   }
   // when you need to calibrate the gravity acceleration, you can set the offset here and eliminate the note
-  // accelgyro.setXAccelOffset(-1200);
-  // accelgyro.setYAccelOffset(-2500);
-  // accelgyro.setZAccelOffset(1988);
+  accelgyro.setXAccelOffset(-1200);
+  accelgyro.setYAccelOffset(-2500);
+  accelgyro.setZAccelOffset(1988);
   Serial.print("X.Y.Z offset :\t");
   Serial.print(accelgyro.getXAccelOffset()); Serial.print("\t");
   Serial.print(accelgyro.getYAccelOffset()); Serial.print("\t");
