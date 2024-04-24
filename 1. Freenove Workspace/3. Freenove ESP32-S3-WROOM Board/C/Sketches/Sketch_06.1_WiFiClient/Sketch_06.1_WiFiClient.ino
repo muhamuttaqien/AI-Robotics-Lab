@@ -6,9 +6,9 @@
 **********************************************************************/
 #include <WiFi.h>
 
-const char *ssid_Router     =  "********"; //Enter the router name
-const char *password_Router =  "********"; //Enter the router password
-#define     REMOTE_IP          "********"  //input the remote server which is you want to connect
+const char *ssid_Router     =  "ICN36303"; //Enter the router name
+const char *password_Router =  "s7wfc9qy"; //Enter the router password
+#define     REMOTE_IP          "92.168.150.178"  //input the remote server which is you want to connect
 #define     REMOTE_PORT         8888       //input the remote port which is the remote provide
 WiFiClient client;
 
@@ -16,7 +16,7 @@ void setup() {
   Serial.begin(115200);
   delay(10);
 
-  WiFi.begin(ssid_Router, password_Router);
+  WiFi.begin(ssid_Router, password_Router);********
   Serial.print("\nWaiting for WiFi... ");
   while (WiFi.status() != WL_CONNECTED) {
     Serial.print(".");

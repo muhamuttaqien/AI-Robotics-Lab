@@ -6,7 +6,7 @@
 **********************************************************************/
 #include <WiFi.h>
 
-const char *ssid_AP     = "WiFi_Name"; //Enter the router name
+const char *ssid_AP     = "WiFi_ESP32"; //Enter the router name
 const char *password_AP = "12345678"; //Enter the router password
 
 IPAddress local_IP(192,168,1,100);//Set the IP address of ESP32 itself

@@ -13,10 +13,10 @@
 #include "camera_pins.h"
 #define LED_BUILT_IN  2
 
-const char* ssid_Router     =   "********";
-const char* password_Router =   "********";
-const char *ssid_AP         =   "********";
-const char *password_AP     =   "********";
+const char* ssid_Router     =   "ICN36303";
+const char* password_Router =   "s7wfc9qy";
+const char *ssid_AP         =   "WiFi_ESP32";
+const char *password_AP     =   "12345678";
 
 WiFiServer server_Cmd(5000);
 WiFiServer server_Camera(8000);

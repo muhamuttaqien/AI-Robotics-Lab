@@ -6,8 +6,8 @@
 **********************************************************************/
 #include <WiFi.h>
   
-const char *ssid_Router     = "********"; //Enter the router name
-const char *password_Router = "********"; //Enter the router password
+const char *ssid_Router     = "ICN36303"; //Enter the router name
+const char *password_Router = "s7wfc9qy"; //Enter the router password
 
 void setup(){
   Serial.begin(115200);

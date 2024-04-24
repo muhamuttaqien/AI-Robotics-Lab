@@ -8,8 +8,8 @@
 #include <WiFi.h>
 
 #define port 80
-const char *ssid_Router      = "********";  //input your wifi name
-const char *password_Router  = "********";  //input your wifi passwords
+const char *ssid_Router      = "ICN36303";  //input your wifi name
+const char *password_Router  = "s7wfc9qy";  //input your wifi passwords
 WiFiServer  server(port);
 
 void setup()
