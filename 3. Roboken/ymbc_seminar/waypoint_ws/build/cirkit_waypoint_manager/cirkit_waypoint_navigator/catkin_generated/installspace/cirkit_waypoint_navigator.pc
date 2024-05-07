@@ -1,0 +1,8 @@
+prefix=/home/muttaqien-m/waypoint_ws/install
+
+Name: cirkit_waypoint_navigator
+Description: Description of cirkit_waypoint_navigator
+Version: 0.1.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: actionlib geometry_msgs jsk_recognition_msgs laser_geometry message_runtime move_base_msgs roscpp roslib sensor_msgs tf visualization_msgs

@@ -1,0 +1,26 @@
+<launch> 
+    <arg name="with_rviz" default="false"/>
+
+    <!-- way point -->
+    <!--<arg name="waypoint_filename" default="$(find cirkit_waypoint_navigator)/waypoints/tukuba_environment/map1_right_waypoint.csv" />-->
+    <!--<arg name="waypoint_filename" default="$(find cirkit_waypoint_navigator)/waypoints/tukuba_environment/map2_waypoint.csv" />-->
+    <!--<arg name="waypoint_filename" default="$(find cirkit_waypoint_navigator)/waypoints/tukuba_environment/map3_waypoint.csv" />-->
+    <!--<arg name="waypoint_filename" default="$(find cirkit_waypoint_navigator)/waypoints/tukuba_environment/map4_waypoint.csv" />-->
+    <!--<arg name="waypoint_filename" default="$(find cirkit_waypoint_navigator)/waypoints/tukuba_environment/map5_waypoint.csv" />-->
+    <!--<arg name="waypoint_filename" default="$(find cirkit_waypoint_navigator)/waypoints/tukuba_environment/map6_waypoint.csv" />-->
+
+    <!-- <arg name="waypoint_filename" default="$(find cirkit_waypoint_navigator)/waypoints/home_environment/room.csv" /> -->
+    <arg name="waypoint_filename" default="$(find cirkit_waypoint_navigator)/waypoints/home_environment/load1.csv" />
+
+    <arg name="start_waypoint" default="0"/>
+
+    <node name="cirkit_waypoint_navigator_node" pkg="cirkit_waypoint_navigator" type="cirkit_waypoint_navigator_node" output="screen">
+    <param name="waypointsfile" value="$(arg waypoint_filename)" />
+    <param name="start_waypoint" value="$(arg start_waypoint)"/>
+    </node>
+
+    <node pkg="cirkit_waypoint_generator" name="cirkit_waypoint_server" type="cirkit_waypoint_server" args="--load $(arg waypoint_filename)" output="screen"/>
+
+    <!-- rviz -->
+    <!--<node if="$(arg with_rviz)" pkg="rviz" type="rviz" name="rviz" args="-d $(find cirkit_waypoint_navigator)/rviz/way_point_publish.rviz"/>-->
+</launch>

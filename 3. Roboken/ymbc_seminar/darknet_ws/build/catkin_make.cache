@@ -1,0 +1,2 @@
+darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs
+-DCATKIN_DEVEL_PREFIX=/home/muttaqien-m/ymbc-seminar/darknet_ws/devel -DCMAKE_INSTALL_PREFIX=/home/muttaqien-m/ymbc-seminar/darknet_ws/install -G Unix Makefiles

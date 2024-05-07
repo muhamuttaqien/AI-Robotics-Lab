@@ -1,0 +1,14 @@
+<launch>
+    <!-- map -->
+    <node pkg="map_server" type="map_server" name="map_server" args="$(find cirkit_waypoint_navigator)/maps/home/room1.yaml" output="screen">
+    <!-- Topic Name -->
+    <remap from="map" to="/map" />
+    <remap from="map_metadata" to="/map_metadata" />
+    <!-- Frame Name -->
+    <param name="frame_id" value="map" />
+    </node>
+    <node name="cirkit_waypoint_generator" pkg="cirkit_waypoint_generator" type="cirkit_waypoint_generator" output="screen">
+    </node>
+    <!-- rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find cirkit_waypoint_generator)/rviz/waypoint_generator.rviz"/>
+</launch>

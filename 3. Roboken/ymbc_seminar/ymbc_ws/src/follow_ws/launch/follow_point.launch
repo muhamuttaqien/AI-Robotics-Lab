@@ -1,0 +1,7 @@
+<launch>
+    <node name="ypspur_ros" pkg="ypspur_ros" type="ypspur_ros" output="screen">
+        <param name="port" value="/dev/ttyACM0"/>
+        <param name="param_file" value="/home/ooka-c/researches/programs/platform/yp-robot-params/robot-params/beego.param"/>
+    </node>
+    <node name="follow_point" pkg="yamasemi2023_follow" type="follow_point" output="screen"/>
+</launch>

@@ -1,0 +1,2 @@
+obstacle_detector
+-DCATKIN_DEVEL_PREFIX=/home/muttaqien-m/ymbc-seminar/obstacle_ws/devel -DCMAKE_INSTALL_PREFIX=/home/muttaqien-m/ymbc-seminar/obstacle_ws/install -G Unix Makefiles

@@ -1,0 +1,11 @@
+<launch>
+
+	<!-- urg node launch -->
+	<node pkg="urg_node" name="urg_node" type="urg_node" output="screen">
+		<param name="serial_port"		value="/dev/ttyACM0" />
+	</node>
+
+	<!-- urg frame broadcaster: base_link to laser frame-->
+	<node pkg="tf" 	name="base_link_to_laser" type="static_transform_publisher" args="0.15 0 0 0 0 0 /base_link /laser 100" />
+
+</launch>

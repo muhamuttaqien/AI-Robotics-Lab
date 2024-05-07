@@ -1,0 +1,8 @@
+prefix=/home/muttaqien-m/ymbc-seminar/hcai_ws/install
+
+Name: hcai
+Description: Description of hcai
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <!--ここからmove_baseのコード記入-->
+ <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <rosparam file="$(find yamasemi_sim)/config/move_base/move_base_param.yaml" command="load" />
+        <rosparam file="$(find yamasemi_sim)/config/move_base/costmap_common_param.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find yamasemi_sim)/config/move_base/costmap_common_param.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find yamasemi_sim)/config/move_base/local_costmap_param.yaml" command="load" />
+        <rosparam file="$(find yamasemi_sim)/config/move_base/global_costmap_param.yaml" command="load" />
+        <rosparam file="$(find yamasemi_sim)/config/move_base/local_planner_param.yaml" command="load" />
+	    <remap from="/cmd_vel" to="/beego/diff_drive_controller/cmd_vel"/>
+    </node>
+<!--ここまで-->
+</launch>

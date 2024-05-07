@@ -1,0 +1,16 @@
+<launch>
+
+	<!-- joy_node launch -->
+	<node pkg="joy" type="joy_node" name="joy_node" >
+		<param name="dev"				value="/dev/input/js0" />
+		<param name="autorepeat_rate"	value="5" />
+	</node>
+
+	<!-- joypad teleoperation for cmd_vel -->
+	<node pkg="hcai" name="teleop_twist_joy" type="teleop_twist_joy.py" >
+		<remap from="cmd_vel"		to="/ypspur_ros/cmd_vel" />
+		<param name="max_speed"		value="0.3" />
+		<param name="max_turn"		value="0.3" />
+	</node>
+
+</launch>

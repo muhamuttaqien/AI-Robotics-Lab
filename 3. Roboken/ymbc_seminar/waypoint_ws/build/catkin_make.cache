@@ -1,0 +1,2 @@
+cirkit_waypoint_manager/cirkit_waypoint_generator:cirkit_waypoint_manager/cirkit_waypoint_manager:cirkit_waypoint_manager/cirkit_waypoint_navigator:cirkit_waypoint_manager_msgs
+-DCATKIN_DEVEL_PREFIX=/home/muttaqien-m/waypoint_ws/devel -DCMAKE_INSTALL_PREFIX=/home/muttaqien-m/waypoint_ws/install -G Unix Makefiles

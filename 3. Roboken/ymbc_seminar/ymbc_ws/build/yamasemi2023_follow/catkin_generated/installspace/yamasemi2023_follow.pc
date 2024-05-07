@@ -1,0 +1,8 @@
+prefix=/home/muttaqien-m/ymbc-seminar/ymbc_ws/install
+
+Name: yamasemi2023_follow
+Description: Description of yamasemi2023_follow
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

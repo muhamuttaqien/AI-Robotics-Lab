@@ -1,0 +1,10 @@
+<launch>
+
+	<!-- usb_cam_node launch -->
+	<node pkg="usb_cam" type="usb_cam_node" name="camera" >
+		<remap from="camera/camera_info"	to="camera/rgb/camera_info" />
+		<remap from="camera/image_raw"		to="camera/rgb/image_raw" />
+		<param name="pixel_format"			value="yuyv" />
+	</node>
+
+</launch>

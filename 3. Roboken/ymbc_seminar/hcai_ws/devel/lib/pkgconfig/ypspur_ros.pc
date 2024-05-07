@@ -1,0 +1,8 @@
+prefix=/home/muttaqien-m/ymbc-seminar/hcai_ws/devel
+
+Name: ypspur_ros
+Description: Description of ypspur_ros
+Version: 0.3.5
+Cflags: -I/home/muttaqien-m/ymbc-seminar/hcai_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp message_runtime diagnostic_msgs geometry_msgs nav_msgs sensor_msgs std_msgs tf2 tf2_geometry_msgs tf2_ros trajectory_msgs

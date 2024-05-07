@@ -1,0 +1,12 @@
+<launch>
+  <!-- way point -->
+  <arg name="waypoint_filename" default="$(find cirkit_waypoint_navigator)/waypoints/home_environment/room_new.csv" />
+  <arg name="start_waypoint" default="0"/>
+  <node name="cirkit_waypoint_navigator_node" pkg="cirkit_waypoint_navigator" type="cirkit_waypoint_navigator_node" output="screen">
+  <param name="waypointsfile" value="$(arg waypoint_filename)" />
+  <param name="start_waypoint" value="$(arg start_waypoint)"/>
+  </node>
+  <node pkg="cirkit_waypoint_generator" name="cirkit_waypoint_server" type="cirkit_waypoint_server" args="--load $(arg waypoint_filename)" output="screen"/>
+   <!-- rviz -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find cirkit_waypoint_navigator)/rviz/way_point_publish.rviz"/>
+</launch>

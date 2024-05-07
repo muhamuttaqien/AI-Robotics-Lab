@@ -1,0 +1,8 @@
+prefix=/home/muttaqien-m/waypoint_ws/devel
+
+Name: cirkit_waypoint_generator
+Description: Description of cirkit_waypoint_generator
+Version: 0.1.0
+Cflags: -I/usr/include
+Libs: -L${prefix}/lib /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+Requires: roscpp geometry_msgs interactive_markers nav_msgs roscpp std_msgs tf visualization_msgs
