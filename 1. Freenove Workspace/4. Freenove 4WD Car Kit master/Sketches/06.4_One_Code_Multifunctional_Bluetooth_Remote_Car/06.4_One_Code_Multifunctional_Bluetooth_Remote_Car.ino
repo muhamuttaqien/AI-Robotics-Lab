@@ -37,7 +37,7 @@ int paramters[COMMANDS_COUNT_MAX], paramterCount = 0;
 int bleCarMode = MODE_NONE;
 
 #define PIN_SERVO 2
-#define MOTOR_DIRECTION 0  //If the direction is reversed, change 0 to 1
+#define MOTOR_DIRECTION 1  //If the direction is reversed, change 0 to 1
 #define PIN_DIRECTION_LEFT 4
 #define PIN_DIRECTION_RIGHT 3
 #define PIN_MOTOR_PWM_LEFT 6
@@ -107,7 +107,7 @@ float batteryVoltage = 0;
 bool isBuzzered = false;
 
 Servo servo;
-char servoOffset = 0;
+char servoOffset = 15;
 int oa_VoltageCompensationToSpeed;
 int distance[3];
 int tk_VoltageCompensationToSpeed;

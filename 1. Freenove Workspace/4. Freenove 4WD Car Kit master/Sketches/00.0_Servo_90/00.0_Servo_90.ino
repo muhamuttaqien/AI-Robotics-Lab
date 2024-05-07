@@ -9,7 +9,7 @@
 #define PIN_SERVO  2    //define servo pin
 
 Servo servo;            //create servo object to control a servo
-byte servoOffset = 52.5;   // change the value to Calibrate servo
+byte servoOffset = 15;   // change the value to Calibrate servo
 
 void setup() {
   servo.attach(PIN_SERVO);        //initialize servo

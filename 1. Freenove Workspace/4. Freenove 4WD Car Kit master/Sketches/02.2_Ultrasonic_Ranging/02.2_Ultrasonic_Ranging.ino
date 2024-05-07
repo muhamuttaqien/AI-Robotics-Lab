@@ -16,7 +16,7 @@
 #define SOUND_VELOCITY  340  //soundVelocity: 340m/s
 
 Servo servo;             //create servo object
-byte servoOffset = 0;    //change the value to Calibrate servo
+byte servoOffset = 15;    //change the value to Calibrate servo
 u8 distance[4];          //define an arry with type u8(same to unsigned char)
 
 void setup() {
@@ -28,19 +28,19 @@ void setup() {
 }
 
 void loop() {
-  servo.write(45);
+  servo.write(45 + servoOffset);
   delay(1000);
-  distance[0] = getSonar();   //get ultrsonice value and save it into distance[0]
+  distance[0] = getSonar();   //get ultrasonic value and save it into distance[0]
 
-  servo.write(90);
+  servo.write(90 + servoOffset);
   delay(1000);
   distance[1] = getSonar();
 
-  servo.write(135);
+  servo.write(135 + servoOffset);
   delay(1000);
   distance[2] = getSonar();
 
-  servo.write(90);
+  servo.write(90 + servoOffset);
   delay(1000);
   distance[3] = getSonar();
   

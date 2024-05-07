@@ -27,7 +27,7 @@
 #define SOUND_VELOCITY    340   //soundVelocity: 340m/s
 
 Servo servo;
-byte servoOffset = 0;
+byte servoOffset = 15;
 int speedOffset;//batteryVoltageCompensationToSpeed
 
 void setup() {

@@ -9,7 +9,7 @@
 #define PIN_SERVO  2    //define servo pin
 
 Servo servo;            //create servo object to control a servo
-byte servoOffset = 0;   // change the value to Calibrate servo
+byte servoOffset = 15;   // change the value to Calibrate servo
 
 void setup() {
   servo.attach(PIN_SERVO);        //initialize servo 
@@ -17,15 +17,15 @@ void setup() {
 }
 
 void loop() {
-  servo.write(45);      //make servo rotate to 45°
+  servo.write(45 + servoOffset);      //make servo rotate to 45°
   delay(1000);          //delay 1000ms
 
-  servo.write(90);      //make servo rotate to 90°
+  servo.write(90 + servoOffset);      //make servo rotate to 90°
   delay(1000);
 
-  servo.write(135);    //make servo rotate to 135°
+  servo.write(135 + servoOffset);    //make servo rotate to 135°
   delay(1000);
 
-  servo.write(90);      //make servo rotate to 90°
+  servo.write(90 + servoOffset);      //make servo rotate to 90°
   delay(1000);
 }

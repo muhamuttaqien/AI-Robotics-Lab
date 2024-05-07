@@ -29,7 +29,7 @@ void loop() {
   }
   if (stringComplete) {
     String inputCommandArray[COMMANDS_COUNT_MAX];
-    int paramters[COMMANDS_COUNT_MAX], paramterCount = 0;
+    int parameters[COMMANDS_COUNT_MAX], paramterCount = 0;
     String inputStringTemp = inputStringBLE;
     for (u8 i = 0; i < COMMANDS_COUNT_MAX; i++) {
       int index = inputStringTemp.indexOf(INTERVAL_CHAR);
@@ -39,7 +39,7 @@ void loop() {
       paramterCount = i;  //
       inputCommandArray[i] = inputStringTemp.substring(0, index);
       inputStringTemp = inputStringTemp.substring(index + 1);
-      paramters[i] = inputCommandArray[i].toInt();
+      parameters[i] = inputCommandArray[i].toInt();
     }
     stringComplete = false;
     inputStringBLE = "";
@@ -49,12 +49,12 @@ void loop() {
     {
       case ACTION_MOVE:
         if (paramterCount == 2) {
-          motorRun(paramters[1], paramters[2]);
+          motorRun(parameters[1], parameters[2]);
         }
         break;
       case ACTION_BUZZER:
         if (paramterCount == 1) {
-          setBuzzer(paramters[1]);
+          setBuzzer(parameters[1]);
         }
         break;
       default:
