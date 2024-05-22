@@ -1,0 +1,20 @@
+[7.935s] Invoking command in '/home/muttaqien-m/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/muttaqien-m/ros2_ws/build/my_robot_controller/prefix_override:/home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/muttaqien-m/ros2_ws/build/my_robot_controller/build --no-deps symlink_data --force
+[11.499s] running develop
+[13.673s] running egg_info
+[13.674s] writing my_robot_controller.egg-info/PKG-INFO
+[13.677s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[13.683s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[13.686s] writing requirements to my_robot_controller.egg-info/requires.txt
+[13.690s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[13.708s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[13.718s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[13.739s] running build_ext
+[13.741s] Creating /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[13.753s] Installing draw_circle script to /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[13.756s] Installing test_node script to /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[13.761s] 
+[13.763s] Installed /home/muttaqien-m/ros2_ws/build/my_robot_controller
+[13.765s] running symlink_data
+[13.767s] symbolically linking /home/muttaqien-m/ros2_ws/build/my_robot_controller/resource/my_robot_controller -> /home/muttaqien-m/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[13.771s] symbolically linking /home/muttaqien-m/ros2_ws/build/my_robot_controller/package.xml -> /home/muttaqien-m/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[14.301s] Invoked command in '/home/muttaqien-m/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/muttaqien-m/ros2_ws/build/my_robot_controller/prefix_override:/home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/muttaqien-m/ros2_ws/build/my_robot_controller/build --no-deps symlink_data --force

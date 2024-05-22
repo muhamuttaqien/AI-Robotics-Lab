@@ -1,0 +1,19 @@
+[3.237s] Invoking command in '/home/muttaqien-m/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/muttaqien-m/ros2_ws/build/my_robot_controller/prefix_override:/home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/muttaqien-m/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[4.590s] running develop
+[4.592s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.592s]   warnings.warn(
+[5.486s] running egg_info
+[5.486s] writing my_robot_controller.egg-info/PKG-INFO
+[5.487s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[5.488s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[5.489s] writing requirements to my_robot_controller.egg-info/requires.txt
+[5.490s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[5.498s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[5.502s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[5.507s] running build_ext
+[5.508s] Creating /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[5.512s] Installing test_node script to /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[5.513s] 
+[5.514s] Installed /home/muttaqien-m/ros2_ws/build/my_robot_controller
+[5.514s] running symlink_data
+[5.676s] Invoked command in '/home/muttaqien-m/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/muttaqien-m/ros2_ws/build/my_robot_controller/prefix_override:/home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/muttaqien-m/ros2_ws/build/my_robot_controller/build --no-deps symlink_data

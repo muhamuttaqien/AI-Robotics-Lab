@@ -1,0 +1,56 @@
+[6.800s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/muttaqien-m/ros2_ws']
+[6.802s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/muttaqien-m/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa17dead0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffffa17dd9f0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffffa17dd9f0>>, mixin_verb=('list',))
+[15.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[15.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[15.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[15.773s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[15.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[15.775s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/muttaqien-m/ros2_ws'
+[15.777s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[15.778s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extension 'ignore'
+[15.780s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extension 'ignore_ament_install'
+[15.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extensions ['colcon_pkg']
+[15.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extension 'colcon_pkg'
+[15.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extensions ['colcon_meta']
+[15.785s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extension 'colcon_meta'
+[15.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extensions ['ros']
+[15.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extension 'ros'
+[16.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extensions ['cmake', 'python']
+[16.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extension 'cmake'
+[16.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extension 'python'
+[16.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extensions ['python_setup_py']
+[16.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws) by extension 'python_setup_py'
+[16.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[16.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/build) by extension 'ignore'
+[16.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/build) ignored
+[16.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[16.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/install) by extension 'ignore'
+[16.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/install) ignored
+[16.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[16.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/log) by extension 'ignore'
+[16.031s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/log) ignored
+[16.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[16.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extension 'ignore'
+[16.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extension 'ignore_ament_install'
+[16.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extensions ['colcon_pkg']
+[16.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extension 'colcon_pkg'
+[16.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extensions ['colcon_meta']
+[16.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extension 'colcon_meta'
+[16.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extensions ['ros']
+[16.049s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extension 'ros'
+[16.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extensions ['cmake', 'python']
+[16.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extension 'cmake'
+[16.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extension 'python'
+[16.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extensions ['python_setup_py']
+[16.056s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src) by extension 'python_setup_py'
+[16.071s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[16.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src/my_robot_controller) by extension 'ignore'
+[16.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src/my_robot_controller) by extension 'ignore_ament_install'
+[16.081s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src/my_robot_controller) by extensions ['colcon_pkg']
+[16.081s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src/my_robot_controller) by extension 'colcon_pkg'
+[16.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src/my_robot_controller) by extensions ['colcon_meta']
+[16.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src/my_robot_controller) by extension 'colcon_meta'
+[16.088s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src/my_robot_controller) by extensions ['ros']
+[16.089s] Level 1:colcon.colcon_core.package_identification:_identify(/home/muttaqien-m/ros2_ws/src/my_robot_controller) by extension 'ros'
+[16.138s] DEBUG:colcon.colcon_core.package_identification:Package '/home/muttaqien-m/ros2_ws/src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[16.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

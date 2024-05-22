@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.001677] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.002388] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.098940] (-) TimerEvent: {}
+[0.200268] (-) TimerEvent: {}
+[0.302167] (-) TimerEvent: {}
+[0.404717] (-) TimerEvent: {}
+[0.506141] (-) TimerEvent: {}
+[0.606986] (-) TimerEvent: {}
+[0.707738] (-) TimerEvent: {}
+[0.808573] (-) TimerEvent: {}
+[0.909231] (-) TimerEvent: {}
+[1.009861] (-) TimerEvent: {}
+[1.110623] (-) TimerEvent: {}
+[1.211275] (-) TimerEvent: {}
+[1.311951] (-) TimerEvent: {}
+[1.412763] (-) TimerEvent: {}
+[1.513780] (-) TimerEvent: {}
+[1.614610] (-) TimerEvent: {}
+[1.715264] (-) TimerEvent: {}
+[1.815957] (-) TimerEvent: {}
+[1.916711] (-) TimerEvent: {}
+[2.017412] (-) TimerEvent: {}
+[2.118093] (-) TimerEvent: {}
+[2.218785] (-) TimerEvent: {}
+[2.319480] (-) TimerEvent: {}
+[2.420175] (-) TimerEvent: {}
+[2.520857] (-) TimerEvent: {}
+[2.621532] (-) TimerEvent: {}
+[2.722259] (-) TimerEvent: {}
+[2.822944] (-) TimerEvent: {}
+[2.923653] (-) TimerEvent: {}
+[3.024533] (-) TimerEvent: {}
+[3.125904] (-) TimerEvent: {}
+[3.227183] (-) TimerEvent: {}
+[3.263646] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/muttaqien-m/ros2_ws/build/my_robot_controller/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/muttaqien-m/ros2_ws/build/my_robot_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'muttaqien-m', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/muttaqien-m', 'OLDPWD': '/home/muttaqien-m/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'MANAGERPID': '949', 'SYSTEMD_EXEC_PID': '1595', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '17865', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/muttaqien-m/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'muttaqien-m', 'JOURNAL_STREAM': '8:24888', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'muttaqien-m', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/muttaqien-m:@/tmp/.ICE-unix/1576,unix/muttaqien-m:/tmp/.ICE-unix/1576', 'INVOCATION_ID': 'edf4de3abd714107802f036d44d1c08c', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/muttaqien-m/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:3de8bf31-26e6-47c6-bdfd-d2e260b18422', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/muttaqien-m/ros2_ws/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/muttaqien-m/ros2_ws/build/my_robot_controller/prefix_override:/home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.327374] (-) TimerEvent: {}
+[3.428072] (-) TimerEvent: {}
+[3.528785] (-) TimerEvent: {}
+[3.629618] (-) TimerEvent: {}
+[3.730327] (-) TimerEvent: {}
+[3.830972] (-) TimerEvent: {}
+[3.931691] (-) TimerEvent: {}
+[4.032364] (-) TimerEvent: {}
+[4.133048] (-) TimerEvent: {}
+[4.233691] (-) TimerEvent: {}
+[4.334376] (-) TimerEvent: {}
+[4.435131] (-) TimerEvent: {}
+[4.535906] (-) TimerEvent: {}
+[4.636676] (-) TimerEvent: {}
+[4.658296] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[4.665397] (my_robot_controller) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.666400] (my_robot_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.736846] (-) TimerEvent: {}
+[4.837540] (-) TimerEvent: {}
+[4.938328] (-) TimerEvent: {}
+[5.038987] (-) TimerEvent: {}
+[5.139633] (-) TimerEvent: {}
+[5.240488] (-) TimerEvent: {}
+[5.341671] (-) TimerEvent: {}
+[5.442348] (-) TimerEvent: {}
+[5.542997] (-) TimerEvent: {}
+[5.546898] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[5.547511] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[5.548610] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[5.549660] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[5.550584] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[5.551205] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[5.559355] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[5.562828] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[5.568596] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[5.569275] (my_robot_controller) StdoutLine: {'line': b'Creating /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[5.573735] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[5.576297] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[5.577569] (my_robot_controller) StdoutLine: {'line': b'Installed /home/muttaqien-m/ros2_ws/build/my_robot_controller\n'}
+[5.578176] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[5.578862] (my_robot_controller) StdoutLine: {'line': b'symbolically linking /home/muttaqien-m/ros2_ws/build/my_robot_controller/resource/my_robot_controller -> /home/muttaqien-m/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[5.579702] (my_robot_controller) StdoutLine: {'line': b'symbolically linking /home/muttaqien-m/ros2_ws/build/my_robot_controller/package.xml -> /home/muttaqien-m/ros2_ws/install/my_robot_controller/share/my_robot_controller\n'}
+[5.643708] (-) TimerEvent: {}
+[5.745204] (-) TimerEvent: {}
+[5.748158] (my_robot_controller) CommandEnded: {'returncode': 0}
+[5.821459] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[5.829234] (-) EventReactorShutdown: {}

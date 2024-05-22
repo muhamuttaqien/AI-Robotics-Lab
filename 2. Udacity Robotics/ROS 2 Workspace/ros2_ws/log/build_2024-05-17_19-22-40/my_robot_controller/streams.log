@@ -1,0 +1,19 @@
+[7.770s] Invoking command in '/home/muttaqien-m/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/muttaqien-m/ros2_ws/build/my_robot_controller/prefix_override:/home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/muttaqien-m/ros2_ws/build/my_robot_controller/build --no-deps symlink_data
+[10.784s] running develop
+[12.762s] running egg_info
+[12.763s] writing my_robot_controller.egg-info/PKG-INFO
+[12.765s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[12.767s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[12.770s] writing requirements to my_robot_controller.egg-info/requires.txt
+[12.775s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[12.796s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[12.805s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[12.820s] running build_ext
+[12.823s] Creating /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[12.833s] Installing draw_circle script to /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[12.837s] Installing pose_subscriber script to /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[12.845s] Installing test_node script to /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[12.849s] 
+[12.853s] Installed /home/muttaqien-m/ros2_ws/build/my_robot_controller
+[12.857s] running symlink_data
+[13.343s] Invoked command in '/home/muttaqien-m/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/muttaqien-m/ros2_ws/build/my_robot_controller/prefix_override:/home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/muttaqien-m/ros2_ws/build/my_robot_controller/build --no-deps symlink_data

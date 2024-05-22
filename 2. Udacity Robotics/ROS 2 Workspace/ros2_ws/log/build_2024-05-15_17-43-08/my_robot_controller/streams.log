@@ -1,0 +1,33 @@
+[6.041s] Invoking command in '/home/muttaqien-m/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/muttaqien-m/ros2_ws/build/my_robot_controller/prefix_override:/home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/muttaqien-m/ros2_ws/build/my_robot_controller/build install --record /home/muttaqien-m/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[8.118s] running egg_info
+[8.127s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[8.128s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[8.130s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[8.131s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[8.132s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[8.133s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[8.135s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[8.149s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[8.154s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[8.157s] running build
+[8.162s] running build_py
+[8.163s] creating /home/muttaqien-m/ros2_ws/build/my_robot_controller/build
+[8.163s] creating /home/muttaqien-m/ros2_ws/build/my_robot_controller/build/lib
+[8.165s] creating /home/muttaqien-m/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[8.167s] copying my_robot_controller/__init__.py -> /home/muttaqien-m/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[8.168s] running install
+[8.169s] running install_lib
+[8.180s] creating /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[8.182s] copying /home/muttaqien-m/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[8.189s] byte-compiling /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[8.192s] running install_data
+[8.193s] creating /home/muttaqien-m/ros2_ws/install/my_robot_controller/share/ament_index
+[8.195s] creating /home/muttaqien-m/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[8.197s] creating /home/muttaqien-m/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[8.198s] copying resource/my_robot_controller -> /home/muttaqien-m/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[8.199s] copying package.xml -> /home/muttaqien-m/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[8.199s] running install_egg_info
+[8.213s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[8.222s] running install_scripts
+[8.400s] writing list of installed files to '/home/muttaqien-m/ros2_ws/build/my_robot_controller/install.log'
+[8.749s] Invoked command in '/home/muttaqien-m/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/muttaqien-m/ros2_ws/build/my_robot_controller/prefix_override:/home/muttaqien-m/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/muttaqien-m/ros2_ws/build/my_robot_controller/build install --record /home/muttaqien-m/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
